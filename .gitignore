@@ -1,0 +1,25 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Model weights (too large for GitHub)
+*.pt
+*.pth
+*.h5
+*.onnx
+*.pkl
+
+# Datasets (on Google Drive)
+data/
+datasets/
+*.csv
+*.zip
+
+# Wandb logs
+wandb/
+mlruns/
