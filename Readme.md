@@ -9,7 +9,17 @@ AI-powered neonatal screening system detecting 15+ conditions using deep learnin
 - Module 4: Face Analysis (Down Syndrome, Cleft Palate) — VGG16
 
 ## Datasets
-All datasets are stored on Google Drive (not included in this repo due to size).
+## Datasets
+All datasets are stored on Google Drive and are not included in this repo.
+
+| Module | Dataset | Size |
+|--------|---------|------|
+| Skin | DermaNet Neonatal + CHOP Jaundice | 8,000+ images |
+| Eye | ROP Retinal Dataset | 6,004 images |
+| Face | VisAGe + Down Syndrome DB | 3,000+ images |
+| Body | BabyPose Dataset | 10,000+ frames |
+
+Dataset access available on request.
 
 ## Tech Stack
 PyTorch, TensorFlow, OpenCV, FastAPI, React
