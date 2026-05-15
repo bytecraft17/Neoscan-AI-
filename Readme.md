@@ -30,7 +30,6 @@ These folders contain the processed images and data used for training and valida
 
 🔗 **Access Datasets:** [NeoScan_AI Main Drive Folder](https://drive.google.com/drive/folders/1n8JRm7RiyTkWSfMwqVijcHGlHMKJ89Bp)
 
-
 ---
 
 ### 🌐 External Research References
