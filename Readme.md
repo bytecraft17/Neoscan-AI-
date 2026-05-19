@@ -11,7 +11,7 @@ This repository contains the deep learning research, training notebooks, and arc
 | Module | Diagnostic Focus | Architecture |
 | :--- | :--- | :--- |
 | **Module 1: Skin** | Jaundice, Cyanosis, Anemia | EfficientNetB3 |
-| **Module 2: Body** | Fetal Health Classification | Ensemble (XGBoost/LightGBM) |
+| **Module 2: Skeletal Skin** | Bone Fracture Classification | ResNet50 |
 | **Module 3: Eye** | ROP, Cataracts | InceptionV3 |
 | **Module 4: Face** | Down Syndrome, Cleft Palate | VGG16 |
 
@@ -24,7 +24,7 @@ The project utilizes a comprehensive collection of neonatal datasets, organized 
 ### 📁 Project Datasets (Google Drive)
 These folders contain the processed images and data used for training and validation:
 - **`Module1_Skin/`**: Jaundice, Cyanosis, and Anemia image data.
-- **`Module2_Full Body/`**: Fetal health classification data.
+- **`Module2_Skeletal Skin/`**: Bone fracture binary classification data.
 - **`Module3_Eye/`**: Retinal images for ROP and Cataract screening.
 - **`Module4_Face/`**: Facial landmark and genetic condition data.
 
@@ -40,7 +40,7 @@ In addition to our private collection, the following public datasets were used a
 | **Skin** | DermaNet + CHOP Jaundice | [Kaggle Jaundice](https://www.kaggle.com/datasets/mubeenshakeel/jaundice-image-data) |
 | **Eye** | ROP Retinal Dataset | [Kaggle ROP](https://www.kaggle.com/datasets/vladimirhula/retinal-image-dataset-of-infants-and-rop) |
 | **Face** | VisAGe + DS Database | [HDA Face DB](https://www.h-da.de/en/research/research-groups/da-sec/biometric-systems/downloads/hda-down-syndrome-face-database/) |
-| **Body** | Fetal Health Dataset | [Kaggle](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification) |
+| **Skeletal Skin** | Bone Fracture Dataset | [Kaggle](https://www.kaggle.com/datasets/bmadushanirodrigo/fracture-multi-region-x-ray-data) |
 
 ---
 
@@ -57,7 +57,7 @@ In addition to our private collection, the following public datasets were used a
 ## 📂 Repository Contents
 
 - `Module1_Skin_Analysis.ipynb`: Training pipeline for jaundice and skin tone analysis.
-- `Module2_Body_Analysis.ipynb`: Fetal health classification (saved as `body_model.pkl`).
+- `Module2_Skeletal Skin Analysis.ipynb`: Bone fracture binary classification.
 - `Module3_Eye_Analysis.ipynb`: Retinal screening for ROP and pediatric cataracts.
 - `Module4_Face_Analysis.ipynb`: Genetic condition detection via facial landmark analysis.
 
