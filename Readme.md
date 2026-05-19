@@ -46,7 +46,7 @@ In addition to our private collection, the following public datasets were used a
 
 ## 🛠️ Research Tech Stack
 
-- **Machine Learning**: Scikit-Learn, XGBoost, LightGBM
+- **Machine Learning**: Scikit-Learn
 - **Deep Learning**: PyTorch, TensorFlow / Keras
 - **Computer Vision**: OpenCV, PIL
 - **Deployment & Prototyping**: FastAPI, React
